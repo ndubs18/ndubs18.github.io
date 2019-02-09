@@ -1,0 +1,657 @@
+html {font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+    font-family: 'Roboto Slab', serif !important;
+}
+
+
+.header__top {
+    display: none;
+    background: rgba(0, 0, 0, .8);
+    margin: 0 0;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+    text-align: center
+
+}
+
+.header__links__top {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 0
+}
+
+.header__links__top li {
+    list-style: none;
+}
+
+.header__links__top a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.header__links__top a:hover {
+    color: lightcyan
+}
+
+.container__one{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("images/water.jpg");
+    background-size: 100% 100%; 
+}
+
+.container__two {
+    height: 60vh;
+    width: 100%
+}
+
+.container__three {
+
+    height: 68vh;
+    width: 100%;
+
+}
+
+.title {
+    width: 12rem;
+    height: auto;
+    color: rgba(238, 238, 238, 1);
+    text-shadow: 1px 1px black
+}
+
+.title:nth-child(1){
+
+    color: rgba(46, 49, 49, 1)
+}
+
+.container__three .title {
+    color: white
+}
+
+.container__four .title {
+    color:  white
+}
+
+.container-nav {
+    display: none;
+}
+
+.container__content {
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1.75rem
+}
+
+.box__design {
+    /* height:260px;
+    width: 280px;
+    clip-path: polygon(0% 74%, 25% 74%, 25% 50.5%, 49% 50%, 49% 23%, 71% 23%, 71% 0, 100% 0, 100% 99%, 0% 100%);
+    background: #e4f1fe;
+    float: right;
+    position: relative;
+    top: 0%;
+    animation: slideLeft 2s forwards; */
+}
+
+
+/* Container__one */
+
+.container__one .container__content {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+
+}
+
+.header-links {
+    height: auto;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+
+.brand {
+    position: absolute;
+    color: rgba(238, 238, 238, 1);
+    font-size: 1.75rem;   
+}
+
+.header-links a {
+    color: rgba(238, 238, 238, 1);
+    font-size: 1.5rem;
+    text-shadow: 2px 2px black;
+    transition: transform .2s ease-in
+}
+
+.header-links li {
+    height:auto;
+    width: auto;
+    list-style: none;
+    margin: .5rem 1rem;
+}
+
+
+.header-links a:hover {
+    text-decoration: none;
+    color: lightcyan;
+}
+
+.me-info .me-info h1, .me-info h2, .me-info p{
+    opacity: 0;
+}
+
+.me-info {
+    height: auto;
+    width: 20rem;
+    font-size: 20px;
+    color: rgba(238, 238, 238, 1);
+    margin: 0 0;
+    align-self: center;
+}
+
+#giT {
+    height: 1.75rem;
+    width: 3.15rem;
+    padding-bottom: .151rem;
+    margin-left: .25rem;
+}
+
+/* Container__one */
+
+/* Container__two */
+
+.container__two {
+    background: rgba(191, 191, 191, 1)
+
+}
+
+#qual {
+    position: absolute
+}
+
+.container__two .container__content {
+    width:90%;
+    height: 100%
+
+}
+
+.container__two .skills {
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.container__two .core { 
+    height: 50%;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    flex-shrink: 2;
+    vertical-align: center
+
+}
+
+.core ul {
+    height: 5rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 2;
+    padding: 0 1rem;
+
+}
+
+.core ul h5 {
+    color: rgba(46, 49, 49, 1);
+    font-weight: 900;
+    margin-bottom: .75rem;
+    padding-left: 0
+}
+
+
+.techimages {
+    height: 7rem;
+    width: auto;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+
+}
+
+.techimages img {
+    height: 75px;
+    width: 75px;
+    margin: 1rem;
+    box-shadow: 1.5px 1.5px grey;
+}
+
+/* Container__two */
+
+/* Container__three */
+
+.container__three {
+    background: rgba(46, 49, 49, 1);
+}
+
+.container__three .container__content {
+    width: 90%;
+
+    
+}
+
+.cardsContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-self: center;
+    margin: 2rem 0rem;
+}
+
+.card {
+    height: 30rem;
+    width: 18rem !important;
+    position: relative;
+    margin: 1rem 1rem;
+    box-shadow: 2px 2px grey;
+}
+.card-body {
+    padding: 1rem 1rem .5rem !important;
+    height: auto !important;
+}
+
+.list-group {
+    height: auto !important;
+}
+
+/* Container__three */
+
+
+
+/* Container__four */
+
+.container__four {
+    background: rgba(46, 49, 49, 1);
+    height: 60vh;
+    width: 100%;
+    color: white;
+}
+
+.about {
+    height: auto;
+    width: 51rem;
+    position: relative;
+    margin: 2rem auto;
+}
+
+.about p {
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+    color: lightcyan
+}
+.about b {
+    outline: 1px white
+    
+}
+
+/* Container__four */
+
+/* footer */
+
+footer{
+    width: 100%;
+    background: rgba(191, 191, 191, 1);
+}
+
+footer p {
+    margin: 0rem .5rem
+    
+}
+
+/* footer */
+
+@keyframes slideUp {
+    from {
+        transform: translateY(300px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1
+        
+    }
+}
+
+/* contentMe animation */
+
+@keyframes slideRight {
+    from{transform: translateX(-500px);
+    opacity: 0;}
+
+    to{transform: translateX(0px);
+    opacity: 1;}
+}
+
+@keyframes slideLeft {
+    from{
+        transform: translateX(600px);
+     
+    }
+
+    to{
+        transform: translateX(0px);
+
+    }
+}
+
+.me-info h1{
+    animation: slideRight 3s forwards;
+    animation-delay: .25s
+}
+
+.me-info h2 {
+    animation: slideRight 3s forwards;
+    animation-delay: .5s
+
+}
+
+.me-info p {
+    animation: slideRight 3s forwards;
+    animation-delay: .75s
+}
+
+.header-links {
+    animation: slideLeft 2s forwards;
+
+}
+
+/* Modals */
+.modal {
+    display: none;
+    font-family: 'Raleway', sans-serif;
+    position: fixed;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); 
+    max-height: 100%;     
+}
+
+#meContent, #workContent {
+    display: block;
+    margin: 1% auto;
+    padding: 1.5rem;
+    width: 70%;
+    background-color: white;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2),
+    0 7px 20px 0 rgba(0, 0, 0, 0.2);  
+    animation-name: modalopen 1s forwards;
+    max-height: 100%;
+    overflow-y: auto;
+
+}
+
+@keyframes modalopen {
+    from {opacity: 0}
+    to {opacity: 1;}
+}
+
+#meContent {
+    text-align: center
+}
+
+.closeBtn {
+    color: gray;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    width: 20px;
+    font-size: 30px;
+    display: block
+
+}
+
+.closeBtn:hover, closeBtn.focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer
+
+}
+
+#techA, #uo {
+    height: 150px;
+    width: 300px;
+    margin: 15px 15px;
+    max-width: 100%;
+    overflow: hidden;
+}
+/* Modals */
+
+/* contentMe animation */
+
+@media only screen and (max-width: 1800px) {
+    .container__three {
+        height: auto;
+    } 
+
+}
+
+@media only screen and (max-width: 1600px) {
+
+    .container__two, .container__four{
+        height: auto;
+    }
+
+    .container__two .container__content{
+        justify-content: flex-start;
+        padding-top: 2rem;
+    }
+
+    .container__one .container__content {
+        height: 100%;
+    }
+
+    .box__design {
+        display: none;
+        
+    }
+
+    .contentMe {
+        top: 6rem;
+    }
+    .me-info p {
+        font-size: .9rem;
+        line-height: 25px;
+    }
+
+    .me-info h1{
+        font-size: 1.75rem !important
+    };
+
+    .me-info h2 {
+        font-size: 1.4rem !important
+    }
+
+    .intro {
+        font-size: 1.25rem;
+    }
+
+    .header__links__top a{
+        font-size: 1.15rem
+    }
+
+}
+
+@media only screen and (max-width: 1400px ) {
+
+    /* .container__three .container__content {
+        height: auto;
+        flex-direction: column;
+        align-items: center
+    } */
+
+    .card {
+        height: auto !important;
+        margin: .5rem .5rem
+    }
+
+    .list-group {
+        display: none !important;
+    }
+
+}
+
+@media only screen and (max-width: 1001px ){
+
+
+    .about{
+        width: auto;
+    }
+    .about p {
+        line-height: 2rem !important;  
+    }
+}
+
+@media only screen and (max-width: 1110px) {
+    
+    .container__two {
+        height: auto;
+        width: 100%
+    }
+
+    .container__two .container__content {
+        height: auto;
+        width: 100%;
+
+    }
+
+    .container__two .skills {
+        flex-direction: row;
+        justify-content: center;
+        height: auto;
+ 
+    }
+
+    .container__two .container__content .core {
+        height: 100%;
+        flex-direction: column;
+        align-content: center;
+        margin: 1rem 0;
+        flex-wrap: wrap
+
+    }
+    
+    .techimages {
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center
+    }
+
+    .core ul {
+        height: auto;
+        margin: .5rem 0;
+    }
+
+    .core li {
+        margin: 0rem;
+    }
+
+    .core h5 {
+        font-size: 1.3rem;
+    }
+
+    .techimages img {
+        height: 50px;
+        width: 50px;
+        margin: .5rem
+    }
+
+    .corePics{
+        margin: .25rem 0rem
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .container__content {
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .me-info {
+        width: auto;
+        position: relative;
+        top: 15%;
+    }
+    .title {
+        text-align: center;
+    }
+
+    .header {
+        display: none
+    }
+
+    .container-nav {
+        display: block;
+    }
+
+    .header-links, .header-links ul {
+       display: none;
+    }
+
+
+    .header__top {
+        display: none
+    }
+
+    #meContent, #workContent {
+        width: 90%;
+    }
+
+    #techA, #uo {
+        width: 250px
+    }
+
+    .brand {
+        top: 12%;
+        left: 4.5%
+    }
+
+ 
+}
+
+
+
+
+
+
