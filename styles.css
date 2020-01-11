@@ -155,9 +155,9 @@ html, body {
     color: lightcyan;
 }
 
-.me-info .me-info h1, .me-info h2, .me-info p{
+/* .me-info .me-info h1, .me-info h2, .me-info p{
     opacity: 0;
-}
+} */
 
 .me-info {
     height: auto;
@@ -370,7 +370,7 @@ footer p {
     }
 }
 
-.me-info h1{
+/* .me-info h1{
     animation: slideRight 3s forwards;
     animation-delay: .25s
 }
@@ -384,12 +384,12 @@ footer p {
 .me-info p {
     animation: slideRight 3s forwards;
     animation-delay: .75s
-}
+} */
 
-.header-links {
+/* .header-links {
     animation: slideLeft 2s forwards;
 
-}
+} */
 
 /* Modals */
 .modal {

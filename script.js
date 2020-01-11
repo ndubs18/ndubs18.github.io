@@ -30,7 +30,7 @@ modalEdExit.addEventListener('click', () => modalEd.style.display = 'none');
 
 //Event delegation style
 window.addEventListener('click', e => {
-    if(e.target == modalWork) { //make sure to use == instead of = !important
+    if(e.target == modalWork) { 
         modalWork.style.display = 'none';
     }
 
